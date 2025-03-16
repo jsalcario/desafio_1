@@ -1,0 +1,68 @@
+Started by user Sebastian Alcario
+Obtained src/desafio_1.groovy from git https://github.com/jsalcario/desafio_1.git
+[Pipeline] Start of Pipeline
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/Desafios/desafio1
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Declarative: Checkout SCM)
+[Pipeline] checkout
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Desafios/desafio1/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jsalcario/desafio_1.git # timeout=10
+Fetching upstream changes from https://github.com/jsalcario/desafio_1.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/jsalcario/desafio_1.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2340385fe87475608dc3f3e918e8a258402e40ad (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2340385fe87475608dc3f3e918e8a258402e40ad # timeout=10
+Commit message: "Update README.md"
+ > git rev-list --no-walk f8cb1a6325d236b2512e27e0a75cfc7639ff89cf # timeout=10
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] withEnv
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (Crear grupos)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] sh
++ sudo groupadd Finanzas
+[Pipeline] sh
++ sudo groupadd Contabilidad
+[Pipeline] sh
++ sudo groupadd Tecnologia
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] stage
+[Pipeline] { (Crear usuario)
+[Pipeline] script
+[Pipeline] {
+[Pipeline] sh
++ sudo useradd -m -s /bin/bash -c John Doe john.doe
++ sudo usermod -aG Finanzas john.doe
+[Pipeline] echo
+Usuario creado: john.doe
+[Pipeline] echo
+Pertenece al departamento: Finanzas
+[Pipeline] echo
+Contraseña temporal: b437d2a9
+[Pipeline] echo
+Por favor cambiar la contraseña en el primer inicio de sesion
+[Pipeline] }
+[Pipeline] // script
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // withEnv
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
