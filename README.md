@@ -10,7 +10,7 @@ Seleccionamos pipeline y le damos un nombre por ejemplo "desafio1"
 
 ![imagen1](images/01.png)
 
-En configuracion, en general podemos poner una descripcion del pipeline
+Configuraciones, en general podemos poner una descripcion del pipeline
 
 ![imagen2](images/02.png)
 
@@ -37,3 +37,15 @@ El tercer parametro va a ser un parametro de Eleccion en el que podremos elegir 
 En nombre ponemos "Departamento", en las opciones debemos poner las opciones una por linea que seran los departamentos a los que van a pertenecer los usuarios y en descripcion "Seleccione el departamento"
 
 ![imagen8](images/08.png)
+
+Pasamos a la configuracion del pipeline:
+
+primero en este repositorio de github vamos a copiar la url del repositorio de esta manera:
+
+![imagen9](images/09.png)
+
+en Definition seleccionamos la opcion Pipeline script from SCM y en SCM seleccionamos Git, en repository URL pegamos el link que copiamos en el paso anterior
+
+![imagen10](images/10.png)
+
+
