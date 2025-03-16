@@ -52,6 +52,14 @@ en branchs specifier escribimos main
 
 ![imagen11](images/11.png)
 
-Y en Script Path escribimos la ruta al script
+Y en Script Path escribimos la ruta al script y por ultimo damos click al boton Save
 
 ![imagen12](images/12path.png)
+
+seleccionamos la opcion Build with Parameters
+
+![imagen13](images/13.png)
+
+ingresamos tanto el nombre como el apellido del usuario y en las opciones el departamento al que va a pertenecer
+
+![imagen14](images/14.png)
