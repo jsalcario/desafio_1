@@ -34,6 +34,6 @@ El tercer parametro va a ser un parametro de Eleccion en el que podremos elegir 
 
 ![imagen7](images/07.png)
 
-En nombre ponemos "Departamento", en las opciones debemos poner las opciones una por linea que seran los departamentos a los que van a pertenecer los usuarios
+En nombre ponemos "Departamento", en las opciones debemos poner las opciones una por linea que seran los departamentos a los que van a pertenecer los usuarios y en descripcion "Seleccione el departamento"
 
 ![imagen8](images/08.png)
