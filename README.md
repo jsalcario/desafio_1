@@ -53,3 +53,5 @@ en branchs specifier escribimos main
 ![imagen11](images/11.png)
 
 Y en Script Path escribimos la ruta al script
+
+![imagen12](images/12path.png)
