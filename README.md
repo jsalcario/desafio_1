@@ -63,3 +63,6 @@ seleccionamos la opcion Build with Parameters
 ingresamos tanto el nombre como el apellido del usuario y en las opciones el departamento al que va a pertenecer
 
 ![imagen14](images/14.png)
+
+> El programa basicamente crea los grupos, crea los usuarios y le asigna un id y una contraseña y la muestra en pantalla, se puede mejorar a prueba de errores como grupos o usuarios ya existentes, caracteres invalidos o vacios.
+> En el directorio public se encuentra el console output de jenkins mostrando que funciona correctamente.
