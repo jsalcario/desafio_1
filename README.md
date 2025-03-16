@@ -48,4 +48,12 @@ en Definition seleccionamos la opcion Pipeline script from SCM y en SCM seleccio
 
 ![imagen10](images/10.png)
 
+en branchs specifier escribimos main
+
+![imagen11](images/11.png)
+
+y en script path escribimos desafio_1 que es la ruta al script
+
+![imagen12](images/12.png)
+
 
