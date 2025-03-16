@@ -52,8 +52,6 @@ en branchs specifier escribimos main
 
 ![imagen11](images/11.png)
 
-y en script path escribimos desafio_1 que es la ruta al script
-
+Y en Script Path escribimos la ruta al script
 ![imagen12](images/12.png)
-
 
